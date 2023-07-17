@@ -1,7 +1,7 @@
 import test from 'ava'
 
 
-process.exit(1)
+//process.exit(1)
 
 test('Hello', t => {
     t.pass()
