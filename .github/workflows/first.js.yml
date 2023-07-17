@@ -49,3 +49,7 @@ jobs:
               with:
                 node-version: 18.x
             - run: echo Hello world
+
+    server:
+        needs: [routage]
+        uses: ./.github/workflows/deploy.js.yml
