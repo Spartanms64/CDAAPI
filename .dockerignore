@@ -1,0 +1,7 @@
+node_modules
+coverage
+.github
+scripts
+pm2.config.js
+test
+test.mjs
