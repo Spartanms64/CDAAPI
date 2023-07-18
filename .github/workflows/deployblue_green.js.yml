@@ -1,0 +1,12 @@
+name: Deploy Blue/Green
+
+
+on:
+    push:
+        branches: ["main"]
+
+
+jobs:
+    needs: [hello]
+    runs-on: ubuntu-latest
+
